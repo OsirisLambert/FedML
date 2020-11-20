@@ -20,74 +20,74 @@ https://app.wandb.ai/automl/fedml/reports/FedML-Benchmark-Experimental-Results--
 We refer the hyper-parameters from many top-tier ML conferences. Please check details of our reference hyperparameters as follows.
 
 - MNIST – Logistic Regression – FedAvg
-    - Patition Method: ‘Federated optimization in heterogeneous networks’, page 7, Section 5.1, ‘Real data’
-    - client_num_in_total: ‘Federated optimization in heterogeneous networks’, page 7, Section 5.1, ‘Real data’
-    - client_num_per_round: ‘Federated optimization in heterogeneous networks’, page 18, Appendix C.2, ‘Hyperparameters’
-    - batch_size: ‘Federated optimization in heterogeneous networks’, page 18, Appendix C.2, ‘Hyperparameters’
-    - client_optimizer: ‘Federated optimization in heterogeneous networks’, page 8, Section 5.1, ‘Implementation
-    - lr: ‘Federated optimization in heterogeneous networks’, page 18, Appendix C.2, ‘Hyperparameters’
-    - epochs: ‘Federated optimization in heterogeneous networks’, page 21, Appendix C.3.2 Figure 9 description
-    - comm_round: ‘Federated optimization in heterogeneous networks’, page 21, Appendix C.3.2 Figure 10
-    - accuracy: ‘Federated optimization in heterogeneous networks’, page 21, Appendix C.3.2 Figure 10
+    - Patition Method: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 7, Section 5.1, ‘Real data’
+    - client_num_in_total: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 7, Section 5.1, ‘Real data’
+    - client_num_per_round: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 18, Appendix C.2, ‘Hyperparameters’
+    - batch_size: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 18, Appendix C.2, ‘Hyperparameters’
+    - client_optimizer: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 8, Section 5.1, ‘Implementation
+    - lr: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 18, Appendix C.2, ‘Hyperparameters’
+    - epochs: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 21, Appendix C.3.2 Figure 9 description
+    - comm_round: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 21, Appendix C.3.2 Figure 10
+    - accuracy: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 21, Appendix C.3.2 Figure 10
 - Federated EMNIST – Logistic Regression-FedAvg
-    - Patition Method: ‘Federated optimization in heterogeneous networks’, page 7, Section 5.1, ‘Real data’
-    - client_num_in_total: ‘Federated optimization in heterogeneous networks’, page 7, Section 5.1, ‘Real data’
-    - client_num_per_round: ‘Federated optimization in heterogeneous networks’, page 18, Appendix C.2, ‘Hyperparameters’
-    - batch_size: ‘Federated optimization in heterogeneous networks’, page 18, Appendix C.2, ‘Hyperparameters’
-    - client_optimizer: ‘Federated optimization in heterogeneous networks’, page 8, Section 5.1, ‘Implementation
-    - lr: ‘Federated optimization in heterogeneous networks’, page 18, Appendix C.2, ‘Hyperparameters’
-    - epochs: ‘Federated optimization in heterogeneous networks’, page 21, Appendix C.3.2 Figure 9 description
-    - comm_round: ‘Federated optimization in heterogeneous networks’, page 21, Appendix C.3.2 Figure 10
-    - accuracy: ‘Federated optimization in heterogeneous networks’, page 21, Appendix C.3.2 Figure 10
+    - Patition Method: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 7, Section 5.1, ‘Real data’
+    - client_num_in_total: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 7, Section 5.1, ‘Real data’
+    - client_num_per_round: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 18, Appendix C.2, ‘Hyperparameters’
+    - batch_size: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 18, Appendix C.2, ‘Hyperparameters’
+    - client_optimizer: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 8, Section 5.1, ‘Implementation
+    - lr: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 18, Appendix C.2, ‘Hyperparameters’
+    - epochs: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 21, Appendix C.3.2 Figure 9 description
+    - comm_round: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 21, Appendix C.3.2 Figure 10
+    - accuracy: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 21, Appendix C.3.2 Figure 10
 - Synthetic(α,β) – Logistic Regression -FedAvg
-    - Patition Method: ‘Federated optimization in heterogeneous networks’, page 18, Appendix C.1, ‘Synthetic’
-    - client_num_in_total: ‘Federated optimization in heterogeneous networks’, page 18, Appendix C.1, ‘Synthetic’
-    - client_num_per_round: ‘Federated optimization in heterogeneous networks’, page 18, Appendix C.2, ‘Hyperparameters’
-    - batch_size: ‘Federated optimization in heterogeneous networks’, page 18, Appendix C.2, ‘Hyperparameters’
-    - client_optimizer: ‘Federated optimization in heterogeneous networks’, page 8, Section 5.1, ‘Implementation
-    - lr: ‘Federated optimization in heterogeneous networks’, page 18, Appendix C.2, ‘Hyperparameters’
-    - epochs: ‘Federated optimization in heterogeneous networks’, page 8, Section 5.1, ‘Hyperparameters & evaluation metrics’
-    - comm_round: ‘Federated optimization in heterogeneous networks’, page 19, Appendix C.3.2 Figure 6
-    - accuracy: ‘Federated optimization in heterogeneous networks’, page 19, Appendix C.3.2 Figure 6
+    - Patition Method: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 18, Appendix C.1, ‘Synthetic’
+    - client_num_in_total: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 18, Appendix C.1, ‘Synthetic’
+    - client_num_per_round: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 18, Appendix C.2, ‘Hyperparameters’
+    - batch_size: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 18, Appendix C.2, ‘Hyperparameters’
+    - client_optimizer: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 8, Section 5.1, ‘Implementation
+    - lr: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 18, Appendix C.2, ‘Hyperparameters’
+    - epochs: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 8, Section 5.1, ‘Hyperparameters & evaluation metrics’
+    - comm_round: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 19, Appendix C.3.2 Figure 6
+    - accuracy: ‘[Federated optimization in heterogeneous networks](https://arxiv.org/abs/1812.06127)’, page 19, Appendix C.3.2 Figure 6
 - Federated EMNIST-CNN-FedAvg
-    - Patition Method: ‘Adaptive federated optimization’,  page 23, Appendix C.2
-    - client_num_in_total: ‘Adaptive federated optimization’, page 23, Appendix C Dataset & Models, Table2
-    - client_num_per_round: ‘Adaptive federated optimization’, page 6, Section 4, ‘Optimizer and hyperparameters’
-    - batch_size: ‘Adaptive federated optimization’, page 27, Appendix D Experiment Hyperparameters, Table7
-    - client_optimizer: ‘Adaptive federated optimization’, page 25, Appendix D.1, Paragraph 1
-    - lr: ‘Adaptive federated optimization’, page 27, Appendix D.4, Table8
-    - wd (learning rate decay):  ‘Adaptive federated optimization’, page34, Appendix E.6, Paragraph 2
-    - epochs: ‘Adaptive federated optimization’, page34, Appendix E.6, Paragraph 1
-    - comm_round:‘Adaptive federated optimization’, page28, Appendix E.1, figure 3
-    - accuracy: ‘Adaptive federated optimization’, page 7, Section 5, Table1
+    - Patition Method: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’,  page 23, Appendix C.2
+    - client_num_in_total: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 23, Appendix C Dataset & Models, Table2
+    - client_num_per_round: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 6, Section 4, ‘Optimizer and hyperparameters’
+    - batch_size: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 27, Appendix D Experiment Hyperparameters, Table7
+    - client_optimizer: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 25, Appendix D.1, Paragraph 1
+    - lr: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 27, Appendix D.4, Table8
+    - wd (learning rate decay):  ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page34, Appendix E.6, Paragraph 2
+    - epochs: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page34, Appendix E.6, Paragraph 1
+    - comm_round:‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page28, Appendix E.1, figure 3
+    - accuracy: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 7, Section 5, Table1
 - CIFAR-100 – ResNet18 -FedAvg
-    - Patition Method: ‘Adaptive federated optimization’, page 23, Appendix C.1, Paragraph 3
-    - Patition_alpha: ‘Adaptive federated optimization’, page 23, Appendix C.1, Paragraph 2
-    - client_num_in_total: ‘Adaptive federated optimization’, page 23, Appendix C Dataset & Models, Table2
-    - client_num_per_round: ‘Adaptive federated optimization’, page 6, Section 4, ‘Optimizer and hyperparameters’
-    - batch_size: ‘Adaptive federated optimization’, page 27, Appendix D Experiment Hyperparameters, Table7
-    - client_optimizer: ‘Adaptive federated optimization’, page 25, Appendix D.1, Paragraph 1
-    - lr: ‘Adaptive federated optimization’, page 27, Appendix D.4, Table8
-    - epochs: ‘Adaptive federated optimization’, page 6, Section 4, ‘Optimizer and hyperparameters’ 
-    - comm_round: ‘Adaptive federated optimization’, page 7, Section 4, figure 1
-    - accuracy: ‘Adaptive federated optimization’, page 7, Section 5, Table1
+    - Patition Method: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 23, Appendix C.1, Paragraph 3
+    - Patition_alpha: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 23, Appendix C.1, Paragraph 2
+    - client_num_in_total: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 23, Appendix C Dataset & Models, Table2
+    - client_num_per_round: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 6, Section 4, ‘Optimizer and hyperparameters’
+    - batch_size: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 27, Appendix D Experiment Hyperparameters, Table7
+    - client_optimizer: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 25, Appendix D.1, Paragraph 1
+    - lr: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 27, Appendix D.4, Table8
+    - epochs: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 6, Section 4, ‘Optimizer and hyperparameters’ 
+    - comm_round: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 7, Section 4, figure 1
+    - accuracy: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 7, Section 5, Table1
 - Shakespeare – RNN – FedAvg
-    - Patition Method: ‘Adaptive federated optimization’, page 23, Appendix C.3
-    - client_num_in_total: ‘Adaptive federated optimization’, page 23, Appendix C Dataset & Models, Table2
-    - client_num_per_round: ‘Adaptive federated optimization’, page 6, Section 4, ‘Optimizer and hyperparameters’
-    - batch_size: ‘Adaptive federated optimization’, page 27, Appendix D Experiment Hyperparameters, Table7
-    - client_optimizer: ‘Adaptive federated optimization’, page 25, Appendix D.1, Paragraph 1
-    - lr: ‘Adaptive federated optimization’, page 27, Appendix D.4, Table8
-    - epochs: ‘Adaptive federated optimization’, page 6, Section 4, ‘Optimizer and hyperparameters’ 
-    - comm_round: ‘Adaptive federated optimization’, page 7, Section 4, figure 1
-    - accuracy: ‘Adaptive federated optimization’, page 7, Section 5, Table1
+    - Patition Method: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 23, Appendix C.3
+    - client_num_in_total: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 23, Appendix C Dataset & Models, Table2
+    - client_num_per_round: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 6, Section 4, ‘Optimizer and hyperparameters’
+    - batch_size: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 27, Appendix D Experiment Hyperparameters, Table7
+    - client_optimizer: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 25, Appendix D.1, Paragraph 1
+    - lr: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 27, Appendix D.4, Table8
+    - epochs: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 6, Section 4, ‘Optimizer and hyperparameters’ 
+    - comm_round: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 7, Section 4, figure 1
+    - accuracy: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 7, Section 5, Table1
 - StackOverflow – RNN – FedAvg
-    - Patition Method: ‘Adaptive federated optimization’, page 23, Appendix C.4, Paragraph 2
-    - client_num_in_total: ‘Adaptive federated optimization’, page 25, Appendix C.4, Paragraph 1
-    - client_num_per_round: ‘Adaptive federated optimization’, page 6, Section 4, ‘Optimizer and hyperparameters’
-    - batch_size: ‘Adaptive federated optimization’, page 27, Appendix D Experiment Hyperparameters, Table7
-    - client_optimizer: ‘Adaptive federated optimization’, page 25, Appendix D.1, Paragraph 1
-    - lr: ‘Adaptive federated optimization’, page 27, Appendix D.4, Table8
-    - epochs: ‘Adaptive federated optimization’, page 6, Section 4, ‘Optimizer and hyperparameters’ 
-    - comm_round: ‘Adaptive federated optimization’, page 7, Section 4, figure 1
-    - accuracy: ‘Adaptive federated optimization’, page 7, Section 5, Table1
+    - Patition Method: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 23, Appendix C.4, Paragraph 2
+    - client_num_in_total: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 25, Appendix C.4, Paragraph 1
+    - client_num_per_round: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 6, Section 4, ‘Optimizer and hyperparameters’
+    - batch_size: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 27, Appendix D Experiment Hyperparameters, Table7
+    - client_optimizer: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 25, Appendix D.1, Paragraph 1
+    - lr: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 27, Appendix D.4, Table8
+    - epochs: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 6, Section 4, ‘Optimizer and hyperparameters’ 
+    - comm_round: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 7, Section 4, figure 1
+    - accuracy: ‘[Adaptive federated optimization](https://arxiv.org/abs/2003.00295)’, page 7, Section 5, Table1
